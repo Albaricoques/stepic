@@ -1,2 +1,7 @@
-# stepik_nginx_1
-Response with static files by location preference ( listen 80 ; server_name _ ; location ^~ /uploads/ {root} *~ \.\w+$ {root} / {return 404} )
+# stepic
+
+git clone https://github.com/Albaricoques/stepic.git /home/box/web
+bash /home/box/web/init.sh
+
+https://stepik.org/lesson/14825/step/12?unit=4174
+Response with nginx, sending static files by location preference ( listen 80 ; server_name _ ; location ^~ /uploads/ {root} *~ \.\w+$ {root} / {return 404} )
